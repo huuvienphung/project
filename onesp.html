@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?fbclid=IwAR2SujHCDJKJjOQ_yFH3q8yZmeCQzmMxZTVzctCQZiZ8wGHdEnnNN7XVkZ8">
+	<link rel="stylesheet" href="css/flickity.css" media="screen">
+	<link rel="stylesheet" href="css/dungchung.min.css">
+	<link rel="stylesheet" href="css/style_onesp.min.css">
+</head>
+<body>
+	<img id="nen" src="image20/abc.png" alt="">
+	<div id="nenden"></div>
+	<div id="giohang">
+		<div id="market">
+			<table class="table table-hover table-striped table-responsive-sm">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Tên sản phẩm</th>
+						<th scope="col">Số lượng</th>
+						<th scope="col">Giá tiền</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">4</th>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row" colspan="3">Tổng tiền</th>
+						<th scope="row">0đ</th>
+					</tr>
+				</tbody>
+			</table>
+			<div class="text-center">
+				<button class="btn btn-primary">Mua ngay</button>	
+			</div>
+			<a href="#" id="delete2"><i class="fas fa-times"></i></a>
+		</div>
+	</div>
+	<div id="dangnhap">
+		<div id="user" >
+			<a id="delete" href="#"><i  class="fas fa-times"></i></a>
+			<div class="img d-none d-md-block" style="background-image: url(image20/anh1.jpg);">
+			</div>
+			<div class="nd">
+				<h5>Đăng nhập</h5>
+				<form action="" id="formdn">
+					<div class="inputbox">
+						<input type="text" class="form-control" name="" id="tendn" placeholder="Nhập tên...">
+						<i class="fas fa-user"></i>
+					</div>
+					<div class="inputbox">
+						<input type="password" class="form-control" name="" id="passdn" placeholder="Nhập password...">
+						<i class="fas fa-lock"></i>
+					</div>
+
+					<button type="submit" class="btn btn-primary">Đăng Nhập</button>
+					<a class="ofform" href="#">Quên mật khẩu</a>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="top" id="top">
+		<div class="container">
+			<div class="row">
+				<div class="hamburger col-2 d-md-none">
+					<a id="bavach" href="#"></a>
+				</div>
+				<div class="logo col-5 col-md-6">
+					<a href="index.html"><img id="logo" src="image20/logo7.png" alt=""></a>
+				</div>
+				<div class="timkiem col-2 d-md-none">
+					<a href="#" class="d-md-none" id="search"><i class="fas fa-search"></i></a>
+				</div>
+				<div class="cart col-3 col-md-2 order-md-11">
+					<a class="iconpro" href="#"><i class="fas fa-user"></i></a>
+					<a  class="iconpro" href="#" id="cart"><i class="fas fa-cart-plus"></i><small>0</small></a>
+				</div>
+				<div class="search col-12 col-md-4 order-md-10">
+					<form action="" id="form">
+						<input type="search" name="" id="filter" placeholder="Tìm kiếm...">
+						<i class="fas fa-search"></i><input type="submit">
+					</form>
+					<ul id="names">
+						<li class="collection-item"><a href="#">Tranh uyên ương</a></li>
+						<li class="collection-item"><a href="#">Tranh hà nội phố</a></li>
+						<li class="collection-item"><a href="#">Phong cảnh Việt Nam</a></li>
+						<li class="collection-item"><a href="#">Tranh đồng quê Việt Nam</a></li>
+						<li class="collection-item"><a href="#">Tranh đồng quê Việt Nam</a></li>
+						<li class="collection-item"><a href="#">Phong cảnh nước ngoài</a></li>
+						<li class="collection-item"><a href="#">Nhân vật và chân dung</a></li>
+						<li class="collection-item"><a href="#">Tranh chữ thư pháp</a></li>
+						<li class="collection-item"><a href="#">Hoa - Tĩnh vật</a></li>
+						<li class="collection-item"><a href="#">Long-Ly-Quy-Phụng</a></li>
+						<li class="collection-item"><a href="#">Vật Phẩm Phong Thủy</a></li>
+						<li class="collection-item"><a href="#">Chuông gió phong thủy</a></li>
+						<li class="collection-item"><a href="#">Đá Quý- Đá Phong Thủy</a></li>
+						<li class="collection-item"><a href="#">Quà tặng tết 2020</a></li>
+						<li class="collection-item"><a href="#">Quà cưới- Kỷ niệm ngày cưới</a></li>
+						<li class="collection-item"><a href="#">Quà tặng sếp- Quà biếu sếp</a></li>
+						<li class="collection-item"><a href="#">Quà tặng lễ mừng thọ</a></li>
+						<li class="collection-item"><a href="#">Quà mừng tân gia khai trương</a></li>
+						<li class="collection-item"><a href="#">Ngọc Cẩm Thạch Thiên Nhiên</a></li>
+						<li class="collection-item"><a href="#">Trang sức theo bộ</a></li>
+						<li class="collection-item"><a href="#">Vòng cổ</a></li>
+						<li class="collection-item"><a href="#">Vòng tay nữ</a></li>
+						<li class="collection-item"><a href="#">Vòng tay</a></li>
+						<li class="collection-item"><a href="#">Vòng tay nam</a></li>
+						<li class="collection-item"><a href="#">Nhẫn phong thủy</a></li>
+						<li class="collection-item"><a href="#">Vòng cổ hổ phách nga tự nhiên</a></li>
+						<li class="collection-item"><a href="#">Lắc tay hổ phách nga tự nhiên</a></li>
+						<li class="collection-item"><a href="#">Tràng hạt hổ phách 108</a></li>
+						<li class="collection-item"><a href="#">Khuyên tai hổ phách</a></li>
+						<li class="collection-item"><a href="#">Nhẫn hổ phách nga tự nhiên</a></li>
+						<li class="collection-item"><a href="#">Vật dụng từ hổ phách</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" style="padding: 0;">
+		<div class="nav">
+			<nav>
+				<ul class="top1">
+					<li class="li1"><a class="item1" href="index.html">TRANG CHỦ</a></li>
+					<li class="li1"><a class="item1" href="gioithieu.html">GIỚI THIỆU</a></li>
+					<li class="li1"><a class="item1 active" href="sanpham.html">SẢN PHẨM</a>
+						<div class="abc">
+							<ul class="top2">
+								<li><a class="item2" href="#">TRANH</a>
+									<ul class="top3">
+										<li><a class="item3" href="#">Tranh uyên ương</a></li>
+										<li><a class="item3" href="#">Tranh hà nội phố</a></li>
+										<li><a class="item3" href="#">Phong cảnh Việt Nam</a></li>
+										<li><a class="item3" href="#">Phong cảnh nước ngoài</a></li>
+										<li><a class="item3" href="#">Nhân vật và chân dung</a></li>
+										<li><a class="item3" href="#">Tranh chữ thư pháp</a></li>
+										<li><a class="item3" href="#">Hoa - Tĩnh vật</a></li>
+									</ul>
+								</li>
+								<li><a class="item2" href="#">VẬT PHẨM PHONG THỦY</a>
+									<ul class="top3">
+										<li><a class="item3" href="#">Long-Ly-Quy-Phụng</a></li>
+										<li><a class="item3" href="#">Vật Phẩm Phong Thủy</a></li>
+										<li><a class="item3" href="#">Chuông gió phong thủy</a></li>
+										<li><a class="item3" href="#">Đá Quý- Đá Phong Thủy</a></li>
+									</ul>	
+								</li>
+								<li><a class="item2" href="#">QUÀ TẶNG PHONG THỦY</a>
+									<ul class="top3">
+										<li><a class="item3" href="#">Quà tặng tết 2020</a></li>
+										<li><a class="item3" href="#">Quà cưới- Kỷ niệm ngày cưới</a></li>
+										<li><a class="item3" href="#">Quà tặng sếp- Quà biếu sếp</a></li>
+										<li><a class="item3" href="#">Quà tặng lễ mừng thọ</a></li>
+										<li><a class="item3" href="#">Quà mừng tân gia khai trương</a></li>
+
+									</ul>
+								</li>
+								<li><a class="item2" href="#">NGỌC CẨM THẠCH</a>
+									<ul class="top3">
+										<li><a class="item3" href="#">Ngọc Cẩm Thạch Thiên Nhiên</a></li>
+									</ul>
+								</li>
+								<li><a class="item2" href="#">TRANG SỨC</a>
+									<ul class="top3">
+										<li><a class="item3" href="#">Trang sức theo bộ</a></li>
+										<li><a class="item3" href="#">Trang sức đá hộ mệnh</a></li>
+										<li><a class="item3" href="#">Vòng cổ</a></li>
+										<li><a class="item3" href="#">Vòng tay nữ</a></li>
+										<li><a class="item3" href="#">Vòng tay</a></li>
+										<li><a class="item3" href="#">Vòng tay nam</a></li>
+										<li><a class="item3" href="#">Nhẫn phong thủy</a></li>
+
+									</ul>
+								</li>
+								<li><a class="item2" href="#">HỔ PHÁCH TỰ NHIÊN</a>
+									<ul class="top3">
+										<li><a class="item3" href="#">Vòng cổ hổ phách nga tự nhiên</a></li>
+										<li><a class="item3" href="#">Lắc tay hổ phách nga tự nhiên</a></li>
+										<li><a class="item3" href="#">Tràng hạt hổ phách 108</a></li>
+										<li><a class="item3" href="#">Khuyên tai hổ phách</a></li>
+										<li><a class="item3" href="#">Nhẫn hổ phách nga tự nhiên</a></li>
+										<li><a class="item3" href="#">Vật dụng từ hổ phách</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					
+					</li>
+					<li class="li1"><a class="item1" href="#">HOẠT ĐỘNG</a>
+						<div class="abc">
+							<ul class="top2">
+								<li><a class="item2" href="#">Video</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="li1"><a class="item1" href="#">TƯ VẤN PHONG THỦY TẠI NHÀ</a></li>
+					<li class="li1"><a class="item1" href="#">TƯ VẤN CHỌN ĐÁ</a></li>
+					<li class="li1"><a class="item1" href="#">TIN TỨC</a></li>
+					<li class="li1"><a class="item1" href="lienhe.html">LIÊN HỆ</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="cachtop">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 bread">
+					<p class="d-none d-md-block"><i class="fas fa-caret-right"></i> sản phẩm\vòng đá phong thủy\<span>vòng đá thạch anh tóc vàng</span></p>
+				</div>
+				<div class="col-12 col-lg-9">
+					<div class="row">
+						<div class="col-12 col-md-6"  id="slide">
+							<div class="main-carousel">
+								<div class="carousel-cell zoom" style="background-image: url(image20/one1.jpg)"><img src="image20/one1.jpg" alt="">
+								</div>
+								<div class="carousel-cell zoom" style="background-image: url(image20/one2.jpg)"><img src="image20/one2.jpg" alt="">
+								</div>
+								<div class="carousel-cell zoom" style="background-image: url(image20/one3.jpg)"><img src="image20/one3.jpg" alt="">
+								</div>
+								<div class="carousel-cell zoom" style="background-image: url(image20/one4.jpg)"><img src="image20/one4.jpg" alt="">
+								</div>
+								<div class="carousel-cell zoom" style="background-image: url(image20/one5.jpg)"><img src="image20/one5.jpg" alt="">
+								</div>
+							</div>
+							<div class="carousel-nav d-none d-md-block">
+								<div class="carousel-cell"><img src="image20/one1.jpg" alt=""></div>
+								<div class="carousel-cell"><img src="image20/one2.jpg" alt=""></div>
+								<div class="carousel-cell"><img src="image20/one3.jpg" alt=""></div>
+								<div class="carousel-cell"><img src="image20/one4.jpg" alt=""></div>
+								<div class="carousel-cell"><img src="image20/one5.jpg" alt=""></div>
+							</div>
+						</div>
+						<div class="thongtin col-12 col-md-6">
+							<div class="d-md-none">
+								<h3 class="gia">1.820.000 <span>đ</span></h3>
+								<p class="giam"><del>2.520.000</del><span> -27%</span></p>
+							</div>
+							<h5 class="name">Vòng đá thạch anh tóc vàng</h5>
+							<ul class="sao">
+								<li><i class="fas fa-star"></i></li>
+								<li><i class="fas fa-star"></i></li>
+								<li><i class="fas fa-star"></i></li>
+								<li><i class="fas fa-star"></i></li>
+								<li><i class="fas fa-star"></i></li>
+								<li>5</li>
+							</ul>
+							<ul class="size">
+								<li><a class="si" href="#">8mm</a></li>
+								<li><a href="#">10mm</a></li>
+								<li><a href="#">12mm</a></li>
+								<li><a href="#">14mm</a></li>
+								<li><a href="#">16mm</a></li>
+							</ul>
+							<div class="nut d-md-none">
+								<ul>
+									<li><button class="btn btn-primary">Mua ngay</button></li>
+									<li><button class="btn btn-outline-primary">Liên hệ tư vấn</button></li>
+								</ul>
+							</div>
+							<hr>
+							<p class="ten">Danh mục sản phẩm: <span>vòng đá thạch anh</span></p>
+							<ul class="uudai">
+								<li><i class="fas fa-gift"></i> Tặng hộp đựng cao cấp</li>
+								<li><i class="fas fa-gift"></i> Tặng dây suôn dự phòng</li>
+								<li><i class="fas fa-gift"></i> Mix vòng theo yêu cầu</li>
+							</ul>
+						<hr>
+						<div class="d-none d-md-block">
+							<div style="display: flex;align-items: flex-end">
+								<span>Giá: </span><h3 class="gia" style="margin: 0">1.820.000 <span>đ</span></h3>
+							</div>
+							<div style="display: flex">
+								<span>Giá thị trường: </span>
+								<p class="giam"><del>2.520.000</del><span class="badge badge-warning"> -27%</span></p>
+							</div>
+						</div>
+							<p><i class="fas fa-truck-pickup"></i><span> Miễn phí vận chuyển: </span>đối với khách hàng thanh toán trước hoặc đơn hàng từ 500.000đ trở lên.</p>
+							<div class="nut d-none d-md-block">
+								<ul>
+									<li><button class="btn btn-primary">Mua ngay</button></li>
+									<li><button class="btn btn-outline-primary">Liên hệ tư vấn</button></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="khoinut">
+								<ul>
+									<li><a class="tt" href="#">Đặc Điểm</a></li>
+									<li><a href="#">Đánh giá</a></li>
+								</ul>
+							</div>
+							<div class="khoinoidung">
+								<div class="khoind">
+									<p>Trong phong thủy ngũ hành tương sinh, tương khắc. Vòng tay thạch anh tóc vàng thuộc hành Thổ, hợp với những người mệnh
+									Thổ và mệnh Kim. Ngược lại, chúng không hợp với những người mệnh Mộc và mệnh Thủy. Với người mệnh Kim, khi đeo sẽ được tương sinh (sinh trưởng), thúc đẩy tài vận, thu hút vận may và tài lộc.</p>
+									<p>Với người mệnh Thổ đeo được tương hợp. Phong thủy gọi là “lưỡng Thổ thành sơn” nghĩa là hợp lại thành núi, ý chỉ sự
+									tương hợp này là vô cùng tốt đẹp, tài lộc đến và ở lại vững bền.</p>
+									<p>Như vậy, nếu bạn mệnh Thổ hoặc mệnh Kim, đeo một chiếc vòng đá thạch anh tóc vàng sẽ tốt cho bạn. Dưới đây là bảng tra
+									cung mệnh theo năm sinh:</p>
+									<table class="table table-hover table-bordered table-responsive-sm">
+										<thead>
+											<tr>
+												<th scope="col">Năm sinh</th>
+												<th scope="col">Hành Canh(Lục thập hoa giáp)</th>
+												<th scope="col">Mệnh</th>
+												<th scope="col">Năm sinh</th>
+												<th scope="col">Hành Canh(Lục thập hoa giáp)</th>
+												<th scope="col">Mệnh</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">1960</th>
+												<td>Canh Tý</td>
+												<td>Thổ</td>
+												<th scope="row">1961</th>
+												<td>Tân Sửu</td>
+												<td>Thổ</td>
+											</tr>
+											<tr>
+												<th scope="row">1962</th>
+												<td>Nhâm Dần</td>
+												<td>Kim</td>
+												<th scope="row">1963</th>
+												<td>Quý Mão</td>
+												<td>Kim</td>
+											</tr>
+											<tr>
+												<th scope="row">1964</th>
+												<td>GiápThìn</td>
+												<td>Hỏa</td>
+												<th scope="row">1965</th>
+												<td>Ất Tỵ</td>
+												<td>Hỏa</td>
+											</tr>
+											<tr>
+												<th scope="row">1966</th>
+												<td>Bính Ngọ</td>
+												<td>Thủy</td>
+												<th scope="row">1967</th>
+												<td>Đinh Mùi</td>
+												<td>Thủy</td>
+											</tr>
+											<tr>
+												<th scope="row">1968</th>
+												<td>Mậu Thân</td>
+												<td>Thổ</td>
+												<th scope="row">1969</th>
+												<td>Kỷ Dậu</td>
+												<td>Thổ</td>
+											</tr>
+											<tr>
+												<th scope="row">1970</th>
+												<td>CanhTuất</td>
+												<td>Kim</td>
+												<th scope="row">1971</th>
+												<td>Tân Hợi</td>
+												<td>Kim</td>
+											</tr>
+											<tr>
+												<th scope="row">1972</th>
+												<td>Nhâm Tý</td>
+												<td>Mộc</td>
+												<th scope="row">1973</th>
+												<td>Quý Sửu</td>
+												<td>Mộc</td>
+											</tr>
+											<tr>
+												<th scope="row">1974</th>
+												<td>Giáp Dần</td>
+												<td>Thủy</td>
+												<th scope="row">1975</t>
+												<td>Ất Mão</td>
+												<td>Thủy</td>
+											</tr>
+											<tr>
+												<th scope="row">1976</th>
+												<td>BínhThìn</td>
+												<td>Thổ</td>
+												<th scope="row">1977</th>
+												<td>Đinh Tỵ</td>
+												<td>Thổ</td>
+											</tr>
+											<tr>
+												<th scope="row">1978</th>
+												<td>Mậu Ngọ</td>
+												<td>Hỏa</td>
+												<th scope="row">1979</th>
+												<td>Kỷ Mùi</td>
+												<td>Hỏa</td>
+											</tr>
+											<tr>
+												<th scope="row">1980</th>
+												<td>CanhThân</td>
+												<td>Mộc</td>
+												<th scope="row">1981</th>
+												<td>Tân Dậu</td>
+												<td>Mộc</td>
+											</tr>
+											<tr>
+												<th scope="row">1982</th>
+												<td>Nhâm Tuất</td>
+												<td>Thủy</td>
+												<th scope="row">1983</th>
+												<td>Quý Hợi</td>
+												<td>Thủy</td>
+											</tr>
+											<tr>
+												<th scope="row">1984</th>
+												<td>Giáp tý</td>
+												<td>Kim</td>
+												<th scope="row">1985</th>
+												<td>Ất Sửu</td>
+												<td>Kim</td>
+											</tr>
+											<tr>
+												<th scope="row">1986</th>
+												<td>Bính Dần</td>
+												<td>Hỏa</td>
+												<th scope="row">1987</th>
+												<td>Đinh Mão</td>
+												<td>Hỏa</td>
+											</tr>
+											<tr>
+												<th scope="row">1988</t>
+												<td>Mậu Thìn</td>
+												<td>Mộc</td>
+												<th scope="row">1989</th>
+												<td>Kỷ Tỵ</td>
+												<td>Mộc</td>
+											</tr>
+											<tr>
+												<th scope="row">1990</t>
+												<td>Canh Ngọ</td>
+												<td>Thổ</td>
+												<th scope="row">1991</th>
+												<td>Tân Mùi</td>
+												<td>Thổ</td>
+											</tr>
+											<tr>
+												<th scope="row">1992</th>
+												<td>NhâmThân</td>
+												<td>Kim</td>
+												<th scope="row">1993</t>
+												<td>Quý Dậu</td>
+												<td>Kim</td>
+											</tr>
+											<tr>
+												<th scope="row">1994</th>
+												<td>GiápTuất</td>
+												<td>Hỏa</td>
+												<th scope="row">1995</th>
+												<td>Ất Hợi</td>
+												<td>Hỏa</td>
+											</tr>
+											<tr>
+												<th scope="row">1996</th>
+												<td>Bính Tý</td>
+												<td>Thủy</td>
+												<th scope="row">1997</th>
+												<td>Đinh Sửu</td>
+												<td>Thủy</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="khoind">
+									<div class="knd2">
+										<h4 class="ai">Đánh giá & Nhận xét vòng đá thạch anh tóc vàng ánh kim</h3>
+										<form action="">
+											<div class="form-row">
+												<div class="form-group col-12 col-md-6 col-lg-4 offset-lg-2">
+													<div id="thongbao" class="text-center"></div>										
+												</div>
+												<div class="form-group col-12 col-md-6 col-lg-4 offset-lg-2">
+													<label for="inputName">Tên của bạn</label>
+													<input type="text" class="form-control" id="inputName" placeholder="Nhập tên của bạn">
+												</div>
+												<div class="form-group col-12 col-md-6  col-lg-4">
+													<label for="inputStar">Số điểm sao</label>
+													<input type="number" class="form-control" step="0.1" max="5" min="0" id="inputStar" placeholder="từ 1 đến 5">
+												</div>
+												<div class="form-group col-12 col-lg-8 offset-lg-2">
+													<label for="inputBody">Góp ý về sản phẩm</label>
+													<textarea class="form-control" id="inputBody" rows="3" placeholder="Nội dung đánh giá"></textarea>
+												</div>
+											</div>
+											<div class="text-center">
+												<button id="addItem" type="submit" class="btn btn-primary">Gửi đánh giá của bạn</button>
+											</div>
+										</form>
+									</div>
+									<div class="nhanxet">
+										<h5 class="ai">Khách hàng nhận xét</h5>
+										<ul></ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 d-none d-lg-block">
+					<p class="tdmenh">sản phẩm theo mệnh</p>
+					<ul class="menh">
+						<li><a href="#"><img src="image20/menh1.jpg" alt=""></a></li>
+						<li><a href="#"><img src="image20/menh2.jpg" alt=""></a></li>
+						<li><a href="#"><img src="image20/menh3.jpg" alt=""></a></li>
+						<li><a href="#"><img src="image20/menh4.jpg" alt=""></a></li>
+						<li><a href="#"><img src="image20/menh5.jpg" alt=""></a><hr></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer" style="background-image: url(image20/anh7.jpg);">
+		<div class="nenden">
+			<div class="container" class="mt-5">
+				<div class="row">
+					<div class="phan1 col-12 col-md-7">
+						<h5>Công ty TNHH TM & chế tác đá quý ngọc thạch</h5>
+						<ul>
+							<li><i class="fas fa-map-marker-alt"></i> Showroom 1: 49 Phố Huế – Hai Bà Trưng – Hà Nội - 0243.9433149</li>
+							<li><i class="fas fa-map-marker-alt"></i> Showroom 2: T18 - Times City - Hà Nội -  090.321.7000</li>
+							<li><i class="fas fa-envelope"></i> cong.ngocthach82dcv@gmail.com</li>
+						</ul>
+					</div>
+					<div class="phan2 col-12 col-md-5">
+						<h5>Kết nối với chúng tôi</h5>
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-12 phan3">
+						<ul>
+							<li><a href="#">Hướng dẫn mua hàng</a></li>
+							<li><a href="#">Trung tâm trợ giúp</a></li>
+							<li><a href="#">Chăm sóc khách hàng</a></li>
+							<li><a href="#">Chính sách bảo hành</a></li>
+							<li><a href="#">Điều khoản Ngọc Thạch</a></li>
+							<li><a href="#">Chính sách bảo mật</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="cuoicung text-center"><p>Bản quyền <i class="fas fa-copyright"></i> thuộc về công ty TM & chế tác đá quý Ngọc Thạch Co, Ltd</p></div>
+		</div>
+	</div>
+	<div class="nutlentren">
+		<div class="container-fluid">
+			<a href="#"><i class="fas fa-angle-up"></i></a>
+		</div>
+	</div>
+	<!-- ===================================================== -->
+	<script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/dungchung.js"></script>
+	<script type="text/javascript" src="js/onesp.js"></script>
+</body>
+</html>

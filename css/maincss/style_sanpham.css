@@ -1,0 +1,344 @@
+@font-face {
+  src: url(../fonts/Nunito-Regular.ttf);
+  font-family: Nunito-r;
+}
+
+@font-face {
+  src: url(../fonts/Nunito-Light.ttf);
+  font-family: Nunito-l;
+}
+
+@font-face {
+  src: url(../fonts/SVN-Kimberley.ttf);
+  font-family: kimberley;
+}
+
+@font-face {
+  src: url(../fonts/Nunito-Bold.ttf);
+  font-family: Nunito-b;
+}
+
+.cachtop {
+  margin-top: 60px;
+}
+
+.cachtop .container {
+  background-color: #fff;
+}
+
+.luachonsp > .container {
+  background-color: #fff;
+}
+
+.sp {
+  padding-bottom: 30px;
+}
+
+#thongbao {
+  font-family: Nunito-b;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.sp img {
+  width: 100%;
+}
+
+.sp .card {
+  border: 1px solid rgba(109, 84, 157, 0.125);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.sp .card .card-body {
+  padding: 0;
+}
+
+.sp button {
+  border: none;
+}
+
+.sp {
+  position: relative;
+}
+
+.sp .chieucao {
+  height: 90px;
+}
+
+.sp .day {
+  position: absolute;
+  bottom: 15px;
+  width: calc(100% - 10px);
+  left: 5px;
+}
+
+.sp .motsanpham {
+  height: 100%;
+}
+
+.sp .giatien {
+  font-family: Nunito-r;
+  font-size: 15px;
+  color: #6d549d;
+  text-align: right;
+  margin: 0;
+}
+
+.sp h6.card-title {
+  color: #333;
+  font-family: Nunito-b;
+  font-size: 17px;
+  margin: 8px 0 0 0;
+  padding: 0 5px;
+}
+
+.sp hr {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+.sp button.btn {
+  padding: 5px 10px;
+  color: #fff;
+  font-family: Nunito-r;
+  text-transform: uppercase;
+  border-radius: .25rem;
+}
+
+.sp button.btn:focus {
+  outline: none;
+}
+
+.sp button.cartpro {
+  text-transform: uppercase;
+  font-family: Nunito-r;
+  color: #fff;
+  padding: 4px;
+  background-color: #6d549d;
+  border-radius: .25rem;
+}
+
+.sp button.cartpro:focus {
+  outline: none;
+}
+
+.sp button.cartpro i.fa-cart-arrow-down {
+  font-size: 15px;
+}
+
+.sp .canh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  bottom: 0;
+}
+
+.sp .canh:focus {
+  outline: none;
+}
+
+.sp .khoinut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sp .khoinut button {
+  background-color: #333;
+  border-radius: .25rem;
+}
+
+.sp .khoinut button i {
+  width: 29px;
+  height: 29px;
+  border: none;
+  text-align: center;
+  line-height: 29px;
+  color: #fff;
+}
+
+.sp .khoinut button:focus {
+  outline: none;
+}
+
+.sp .khoinut input {
+  margin: 0 5px;
+  width: 80px;
+}
+
+.khoitimkiem {
+  padding: 15px;
+  -webkit-box-shadow: -1rem 0 3rem rgba(19, 19, 19, 0.125);
+          box-shadow: -1rem 0 3rem rgba(19, 19, 19, 0.125);
+}
+
+.khoitimkiem {
+  color: #333;
+}
+
+.khoitimkiem h4 {
+  font-family: kimberley;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.khoitimkiem h4 i {
+  font-size: 25px;
+}
+
+.khoitimkiem ul li a {
+  display: block;
+  color: #333;
+  font-family: Nunito-r;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.khoitimkiem ul li a.chon {
+  background-color: rgba(109, 84, 157, 0.3);
+}
+
+@media screen and (min-width: 768px) {
+  .cachtop {
+    margin-top: 140px;
+  }
+  .sp .chieucao {
+    height: 127px;
+  }
+  .sp .day {
+    position: absolute;
+    bottom: 15px;
+    width: calc(100% - 10px);
+    left: 5px;
+  }
+  .sp .motsanpham {
+    height: 100%;
+  }
+  .sp .giatien {
+    font-size: 18px;
+  }
+  .sp h6.card-title {
+    font-size: 20px;
+    margin: 8px 0 8px 0;
+  }
+  .sp hr {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+  .sp button.btn {
+    margin-top: 9px;
+  }
+  .sp button.cartpro {
+    margin-top: 5px;
+    padding: 6px;
+  }
+  .sp .khoinut input {
+    width: 50px;
+  }
+  .sp .canh {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .khoitimkiem h4 {
+    font-size: 30px;
+  }
+  .khoitimkiem h4 i {
+    font-size: 30px;
+  }
+  .khoitimkiem ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .khoitimkiem ul li {
+    padding: 5px 10px;
+  }
+  .khoitimkiem ul li a {
+    font-size: 18px;
+    padding: 0;
+    border-bottom: 1px solid transparent;
+  }
+  .khoitimkiem ul li a.chon {
+    background-color: transparent;
+    border-bottom: 1px solid #6d549d;
+  }
+  #thongbao {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .cachtop {
+    margin-top: 60px;
+  }
+  .sp .chieucao {
+    height: 135px;
+  }
+  .sp .day {
+    position: absolute;
+    bottom: 15px;
+    width: calc(100% - 10px);
+    left: 5px;
+  }
+  .sp .motsanpham {
+    height: 100%;
+  }
+  .sp .giatien {
+    font-size: 18px;
+  }
+  .sp h6.card-title {
+    font-size: 24px;
+  }
+  .sp hr {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+  .sp button.btn {
+    margin-top: 9px;
+  }
+  .sp button.cartpro {
+    margin-top: 7px;
+    padding: 8px;
+  }
+  .sp .khoinut input {
+    width: 60px;
+  }
+  .khoitimkiem h4 {
+    font-size: 32px;
+  }
+  .khoitimkiem h4 i {
+    font-size: 32px;
+  }
+  .khoitimkiem ul {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .khoitimkiem ul li a {
+    font-family: Nunito-b;
+    font-size: 20px;
+  }
+  .khoitimkiem ul li a:hover {
+    border-bottom: 1px solid #6d549d;
+  }
+  #thongbao {
+    font-size: 25px;
+  }
+}
